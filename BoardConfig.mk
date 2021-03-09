@@ -165,3 +165,4 @@ TARGET_USES_LOGD := true
 
 # PBRP Build Flags
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
+BETA_BUILD := true
