@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX2193
+DEVICE_PATH := device/realme/RMX3171
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -83,7 +83,7 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 25384959488
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2193,RMX2191
+TARGET_OTA_ASSERT_DEVICE := RMX3171
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true

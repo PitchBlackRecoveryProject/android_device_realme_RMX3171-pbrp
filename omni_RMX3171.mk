@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := RMX2193
+PRODUCT_RELEASE_NAME := RMX3171
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -24,10 +24,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX2193
-PRODUCT_NAME := omni_RMX2193
+PRODUCT_DEVICE := RMX3171
+PRODUCT_NAME := omni_RMX3171
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Narzo 20 / 7i (EU)
+PRODUCT_MODEL := Narzo 30A
 PRODUCT_MANUFACTURER := realme
 
 # HACK: Set vendor patch level
