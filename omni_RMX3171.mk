@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_DEVICE := RMX3171
-PRODUCT_NAME := twrp_RMX3171
+PRODUCT_NAME := omni_RMX3171
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3171
 PRODUCT_MANUFACTURER := realme
