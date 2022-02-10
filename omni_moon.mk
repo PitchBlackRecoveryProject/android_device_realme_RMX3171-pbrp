@@ -16,6 +16,9 @@
 # limitations under the License.
 #
 
+# Release name
+PRODUCT_RELEASE_NAME := moon
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -23,15 +26,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/pb/config/common.mk)
 
-PRODUCT_DEVICE := RMX3171
-PRODUCT_NAME := omni_RMX3171
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3171
-PRODUCT_MANUFACTURER := realme
+PRODUCT_DEVICE := moon
+PRODUCT_NAME := omni_moon
+PRODUCT_BRAND := Realme
+PRODUCT_MODEL := Narzo 20/30A/7i (EU)
+PRODUCT_MANUFACTURER := Realme
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # fastbootd
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock
+    android.hardware.fastboot@1.0-impl-mock \
+    android.hardware.fastboot@1.0-impl-mock.recovery

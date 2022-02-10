@@ -17,4 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_RMX3171.mk
+     $(LOCAL_DIR)/omni_moon.mk
+
+COMMON_LUNCH_CHOICES := omni_moon-eng

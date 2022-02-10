@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX3171
+DEVICE_PATH := device/realme/moon
 
 # Architecture
 TARGET_ARCH := arm64
